@@ -51,14 +51,44 @@ View/download files later
 - File type/size validation (e.g., only JPG or PDF under 2MB)
 - Show errors like "File Not Found" or "Upload failed"
 - Backend validation for required fields
-  ---
-  ## 📸 Screenshot
-  
 ---
-#👤 Contact
-For any questions or feedback, feel free to connect:-
--**Name**: Shreya Ghemad
--**Email**: shreyaghemad16@gmail.com
--**GitHub**: https://github.com/GhemadShreya
-🎉 Enjoy using the **Hostel Registration Form For Student**
+
+## 🗂️ Project Structure
+```
+HibernateJPA
+├── src/
+│     ├── entity/
+│     │     ├── Course.java
+│     │     └── Student.java
+│     │
+│     ├── service/
+│     │    ├── CourseService.java
+│     │    └── StudentService.java
+│     │
+│     └── app/
+│         ├── HibernateUtil.java
+│         └── MainMenu.java
+│   
+├── resources/ 
+│       └── META-INF/
+│             └── persistence.xml
+└── pom.xml
+```
+
+
+  ---
+  
+  ## 🖼️ Screenshot
+
+<img width="900" height="470" alt="Screenshot 2025-07-14 161150" src="snap.png" />
+
+---
+# 📌 Contact Details
+- For any questions or feedback, feel free to connect:-
+- **Name**: Shreya Ghemad
+- **Email**: shreyaghemad16@gmail.com
+- **GitHub**: https://github.com/GhemadShreya
+---
+ 🎉 Enjoy using the **Hostel Registration Form For Student**
 Built RestAPI with JavaScript + HTML + CSS as forntend.
+---
