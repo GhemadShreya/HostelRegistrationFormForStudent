@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hostel Management System</title>
+    <link rel="stylesheet" href="firstpage.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Registration</h1>
+        <form id="studentForm">
+            <div class="card">
+                <h2>Student Details</h2>
+                <input type="text" name="studentName" placeholder="Student Name" required>
+                <input type="text" name="collegeName" placeholder="College Name" required>
+                <input type="text" name="branch" placeholder="Branch" required>
+                <input type="text" name="classYear" placeholder="Class Year" required>
+                <input type="number" name="age" placeholder="Age" required>
+            </div>
+
+            <div class="card">
+                <h2>Student Contact</h2>
+                <input type="number" name="contactNo" placeholder="Contact No" required>
+                <input type="text" name="nativeAddress" placeholder="Native Address" required>
+            </div>
+
+            <div class="card">
+                <h2>Parents Detail</h2>
+                <input type="text" name="parentsName" placeholder="Parent's Name" required>
+                <input type="number" name="pContact" placeholder="Parent Contact" required>
+            </div>
+
+            <div class="card">
+                <h2>Uploads</h2>
+                <label>Photo: <input type="file" name="photo"></label>
+                <label>Fees Document: <input type="file" name="fees"></label>
+            </div>
+
+            <button class="submit-btn" type="submit">Register Student</button>
+        </form>
+
+        <div class="card">
+            <h2>Student List</h2>
+            <button onclick="fetchAllStudents()">Load All Students</button>
+            <ul id="studentList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
