@@ -55,33 +55,43 @@ View/download files later
 
 ## 🗂️ Project Structure
 ```
-HibernateJPA
+HostelManagementSystem/
 ├── src/
-│     ├── entity/
-│     │     ├── Course.java
-│     │     └── Student.java
-│     │
-│     ├── service/
-│     │    ├── CourseService.java
-│     │    └── StudentService.java
-│     │
-│     └── app/
-│         ├── HibernateUtil.java
-│         └── MainMenu.java
-│   
-├── resources/ 
-│       └── META-INF/
-│             └── persistence.xml
-└── pom.xml
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/example/hostel/
+│   │   │       ├── controller/
+│   │   │       ├── model/
+│   │   │       ├── repository/
+│   │   │       └── service/
+│   │   └── resources/
+│   │       ├── static/
+│   │       ├── templates/
+│   │       └── application.properties
+├── pom.xml
+└── README.md
+
 ```
 
 
   ---
   
   ## 🖼️ Screenshot
+  - Spring-boot Application
+    
+    <img width="900" height="470" alt="Screenshot 2025-07-14 161150" src="Screenshot (50).png" />
+    
+  - Testig backend
+    
+    <img width="900" height="470" alt="Screenshot 2025-07-14 161150" src="Screenshot (51).png" />
+    
+  - Frontend
+    
+    <img width="900" height="470" alt="Screenshot 2025-07-14 161150" src="Screenshot (52).png" />
+    
+    <img width="900" height="470" alt="Screenshot 2025-07-14 161150" src="Screenshot 2025-08-03 080226.png" />
 
-<img width="900" height="470" alt="Screenshot 2025-07-14 161150" src="snap.png" />
-
+   
 ---
 # 📌 Contact Details
 - For any questions or feedback, feel free to connect:-
@@ -90,5 +100,5 @@ HibernateJPA
 - **GitHub**: https://github.com/GhemadShreya
 ---
  🎉 Enjoy using the **Hostel Registration Form For Student**
-Built RestAPI with JavaScript + HTML + CSS as forntend.
+      Built RestAPI with JavaScript + HTML + CSS as forntend.
 ---
