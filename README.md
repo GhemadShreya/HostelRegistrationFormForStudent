@@ -94,7 +94,7 @@ HostelManagementSystem/
    
 ---
 # 📌 Contact Details
-- For any questions or feedback, feel free to connect:-
+ For any questions or feedback, feel free to connect:-
 - **Name**: Shreya Ghemad
 - **Email**: shreyaghemad16@gmail.com
 - **GitHub**: https://github.com/GhemadShreya
