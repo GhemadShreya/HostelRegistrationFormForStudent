@@ -95,7 +95,9 @@ HostelManagementSystem/
 ---
 # 📌 Contact Details
  For any questions or feedback, feel free to connect:-
-- **Name**: Shreya Ghemad
+ ## Project Members
+- **Name**: Shreya Ghemad (Group Leader)
+- **Name**:Mansi patil
 - **Email**: shreyaghemad16@gmail.com
 - **GitHub**: https://github.com/GhemadShreya
 ---
